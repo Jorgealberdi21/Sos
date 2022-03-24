@@ -2,7 +2,7 @@
 
 
 
-/*{outline: 1px solid red;}*/
+*{outline: 1px solid red;}
 
 
 body{
@@ -48,8 +48,8 @@ aspect-ratio: 4/3;}
 li{
     border: 1px solid black;
     border-radius: 20px;
-    width: 50%;
-   box-shadow: 3px 5px;
+    max-width: 215px;
+    box-shadow: 3px 5px;
     transition: 0.2s;
 }li:hover{
     
@@ -61,10 +61,7 @@ li{
     justify-content: space-around;
 }
 a{text-decoration: none;}
-ul{list-style: none;
-display:flex;
-gap: 8px;
-}
+ul{list-style: none;padding-left: 0;display:flex;flex-wrap: wrap;gap: 16px;}
 h3{
     color: blue;
 
@@ -78,6 +75,7 @@ button{
     padding:10px;
     border-radius: 20px;
     transition: 0.3s;
+    border:none ;
 }
 button:hover{
     letter-spacing: 2px;
@@ -90,4 +88,5 @@ button:hover{
 footer{text-align: center;
 color:grey;
 border: 1px;
-}
+background:rgb(236, 231, 231);
+box-shadow: 2px 3px;}
