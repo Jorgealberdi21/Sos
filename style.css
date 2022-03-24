@@ -65,7 +65,24 @@ ul{list-style: none;
 display:flex;
 gap: 8px;
 }
+h3{
+    color: blue;
 
+}
+h3:hover{
+    letter-spacing: 2px;
+}
+button{
+    background:lightblue;
+    color: white;
+    padding:10px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+button:hover{
+    letter-spacing: 2px;
+    color:black;
+}
 
 
 
