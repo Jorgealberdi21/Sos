@@ -2,14 +2,18 @@
 
 
 
-*{outline: 1px solid red;}
+*{ margin: 0;padding:0;border:0;box-sizing: border-box;
+
+    outline: 1px solid red;
+}
+
 
 
 body{
     max-width: 960px;
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 20px;
-     ;
+     
     
 }
 header{
@@ -19,11 +23,13 @@ header{
     box-shadow: 3px 5px;
 }
 
-main{text-align: center;}
+main{text-align: center;
+    margin: 0 auto;
+    max-width: 100%;}
 img{max-width: 90%;
-margin-top: 10px;
-border-radius: 10px;
-aspect-ratio: 4/3;}
+    margin-top: 10px;
+    border-radius: 10px;
+    aspect-ratio: 4/3;}
 
 .html{
     background: rgb(236, 151, 151);
@@ -61,7 +67,11 @@ li{
     justify-content: space-around;
 }
 a{text-decoration: none;}
-ul{list-style: none;padding-left: ;display:flex;flex-wrap: wrap;gap: 16px;}
+ul#galeria{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 16px;}
 h3{
     color: blue;
 
@@ -76,14 +86,34 @@ button{
     border-radius: 20px;
     transition: 0.3s;
     border:none ;
+    margin-bottom: 5px;
 }
 button:hover{
     letter-spacing: 2px;
     color:black;
 }
+
 .list{
-    
+    flex-direction: column;
 }
+
+.list li{
+    background: lightblue;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.list li img{
+    
+    display: none;
+  
+}
+
+
+.grid{
+    flex-direction: row;
+}
+.grid li{background: lightblue;}
 
 
 
